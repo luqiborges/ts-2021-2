@@ -22,8 +22,8 @@
 
 **Obs:** As classes de equivalência estão disponíveis na tarefa #003, neste github.
 
-Onde:
-**CT** = Caso de Teste, seguido de um valor sequencial;
-**Valor de entrada** é o valor informado para a variável;
-**Resultado esperado** é o resultado que se espera da execução da função;
+**Onde:**<br />
+**CT** = Caso de Teste, seguido de um valor sequencial.<br />
+**Valor de entrada** é o valor informado para a variável.<br />
+**Resultado esperado** é o resultado que se espera da execução da função.<br />
 **Classe de Equivalência** é a identificação de qual classe de equivalência está sendo exercitada pelo caso de teste.
