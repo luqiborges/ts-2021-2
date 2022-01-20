@@ -20,7 +20,7 @@
 |CT07|**n1)** 5.99 **n2)** 5.99 **cargaHorária)** 100h **faltas)** 26h|Reprovado por Falta|CE01, CE04, CE07, CE12|
 |CT08|**n1)** 6.00 **n2)** 6.00 **cargaHorária)** 100h **faltas)** 26h|Reprovado por Falta|CE01, CE05, CE08, CE12|
 
-**Obs:** As classes de equivalência estão disponíveis na tarefa 003, neste github.
+**Obs:** As classes de equivalência estão disponíveis na tarefa #003, neste github.
 
 Onde:
 **CT** = Caso de Teste, seguido de um valor sequencial;
