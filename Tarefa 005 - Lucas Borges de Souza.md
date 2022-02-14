@@ -4,26 +4,13 @@
 
 **Matrícula:** 201802776
 
-1.Considere o seguinte cenário: Uma corretora de seguros concede desconto sobre o prêmio anual de seguro de automóvel, aos seus segurados conforme as regras a seguir:
-|Sexo|Idade (anos)|Estado Civil|Desconto (%)|
-|---|---|---|---|
-|Masculino|< 25|Solteiro|0|0
-|Masculino|< 25|Casado|5|
-|Masculino|> 25|Solteiro|10|
-|Masculino|> 25|Casado|15|
-|Feminino|< 25|Solteira|5|
-|Feminino|< 25|Casada|10|
-|Feminino|> 25|Solteira|15|
-|Feminino|> 25|Casada|20|
+**1. Grafo de causa e efeito**
 
-2. Solicita-se:
-   1. Geração do grafo de causa e efeito para representar este cenário.
-      
 <p align="center">
-  <img src="https://imgur.com/IYnxEH4" width="70%"/>
+  <img src="https://i.imgur.com/IYnxEH4.png" width="68%">
 </p>
 
-   2. Geração da tabela de decisão para representar o cenário:
+**2. Tabela de Decisão**
       
 |Causa|R1|R2|R3|R4|R5|R6|R7|R8|
 |--|--|--|--|--|--|--|--|--|
@@ -34,7 +21,8 @@
 |Efeito|R1|R2|R3|R4|R5|R6|R7|R8|
 |-|-|-|-|-|-|-|-|-|
 |Valor do Desconto(%)|0|5|10|15|5|10|15|20|
-   3. Geração do conjunto de casos de teste suficientes para cobrir todos os cenários, constantes do grafo e da tabela de decisão: 
+
+**3. Casos de teste**
  
 |CT|Valores de Entrada|Resultado Esperado|
 |--|--|--|
@@ -46,6 +34,3 @@
 |CT06|**Sexo)** Feminino **Idade)** 20 **Estado Civil)** Casada |**Valor Líquido)** R$ 1800,00|
 |CT07|**Sexo)** Feminino **Idade)** 32 **Estado Civil)** Solteira |**Valor Líquido)** R$ 1700,00|
 |CT08|**Sexo)** Feminino **Idade)** 29 **Estado Civil)** Casada |**Valor Líquido)** R$ 1600,00|
-
-   4. Em relação aos casos de teste, considere o valor do seguro de R$ 2.000,00 (Dois mil reais). Desta forma, o valor esperado, do resultado do caso de teste, deve ser o valor líquido a ser pago. Ou seja, o prêmio deduzido do valor correspondente ao percentual do desconto obtido pelo cliente.
-   
