@@ -7,7 +7,7 @@
 1. Grafo de Fluxo de Controle
 
 <p align="center">
-  <img src="https://i.imgur.com/HVIGkhk.png" width="68%">
+  <img src="https://imgur.com/a/HVIGkhk" width="68%">
 </p>
 
 2. Complexidade Ciclomática do Código
