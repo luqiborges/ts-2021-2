@@ -6,6 +6,10 @@
 
 1. Grafo de Fluxo de Controle
 
+<p align="center">
+  <img src="https://i.imgur.com/HVIGkhk.png" width="68%">
+</p>
+
 2. Complexidade Ciclomática do Código
     C = 16 arestas - 13 nós + 2 = 5
     C = 4 nós predicados + 1 = 5
