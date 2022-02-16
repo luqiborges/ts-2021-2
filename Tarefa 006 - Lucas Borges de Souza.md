@@ -4,20 +4,22 @@
 
 **Matrícula:** 201802776
 
-1. Grafo de Fluxo de Controle
+**1. Grafo de Fluxo de Controle**
 
 <p align="center">
   <img src="https://i.imgur.com/fH1w18R.png" width="68%">
 </p>
 
-2. Complexidade Ciclomática do Código
+**2. Complexidade Ciclomática do Código**
+
     C = 16 arestas - 13 nós + 2 = 5
     C = 4 nós predicados + 1 = 5
 
-3. Caminhos de Execução
+**3. Caminhos de Execução:**
+
     Quantidade de caminhos de execução = Complexidade Ciclomática = 5 caminhos de execução
 
-4. Casos de Teste
+**4. Casos de Teste**
 
 |CT|Valores de Entrada|Resultado Esperado|
 |--|--|--|
